@@ -19,6 +19,15 @@ function RepoSkeleton() {
   );
 }
 
+const repoDescriptions: Record<string, string> = {
+  'divyanshupro': 'Next.js & Tailwind CSS developer portfolio highlighting AI/ML engineering projects, skills, and certifications.',
+  'csv_aiact': 'AI-driven pipeline for parsing, validating, and executing automated workflows on raw CSV datasets.',
+  'csv_aitech': 'Data validation and analysis automation pipeline for processing large structured datasets.',
+  'ai-interviewer': 'Generative AI platform designed to conduct automated developer interviews and evaluate responses.',
+  'edu-mind-platform': 'EdTech web application featuring interactive student workflows and intelligent learning guides.',
+  'edu_tech': 'AI-powered education tool featuring curriculum generation and intelligent query resolution.',
+};
+
 export default function GitHubRepos() {
   const [repos, setRepos] = useState<GitHubRepo[]>([]);
   const [loading, setLoading] = useState(true);
@@ -86,7 +95,7 @@ export default function GitHubRepos() {
                     </h4>
                   </div>
                   <p className="text-muted text-xs leading-relaxed mb-4 line-clamp-2 min-h-[2.5rem]">
-                    {repo.description || 'No description available'}
+                    {repo.description || repoDescriptions[repo.name] || repoDescriptions[repo.name.toLowerCase()] || 'No description available'}
                   </p>
                   <div className="flex items-center gap-4 text-xs text-muted">
                     {repo.language && (
