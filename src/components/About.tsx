@@ -5,10 +5,10 @@ import SectionWrapper, { itemVariants } from '@/components/SectionWrapper';
 import { PERSONAL } from '@/lib/constants';
 
 const stats = [
-  { value: '6+', label: 'Projects Built' },
-  { value: '400+', label: 'DSA Problems' },
-  { value: '2', label: 'Internships' },
-  { value: '500+', label: 'Community Led' },
+  { value: '20+', label: 'Projects Built' },
+  { value: '350+', label: 'DSA Problems' },
+  { value: '3', label: 'Internships' },
+  { value: '30+', label: 'Community Event Led' },
 ];
 
 export default function About() {
