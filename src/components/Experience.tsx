@@ -8,7 +8,7 @@ export default function Experience() {
     <SectionWrapper id="experience">
       <div className="max-w-6xl mx-auto px-6">
         <motion.div variants={itemVariants} className="mb-16">
-          <span className="text-accent font-mono text-sm tracking-wider">04.</span>
+          <span className="text-accent font-mono text-sm tracking-wider">03.</span>
           <h2 className="font-display text-3xl md:text-5xl font-bold mt-2">Experience</h2>
         </motion.div>
 
