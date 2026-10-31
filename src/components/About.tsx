@@ -5,10 +5,10 @@ import SectionWrapper, { itemVariants } from '@/components/SectionWrapper';
 import { PERSONAL } from '@/lib/constants';
 
 const stats = [
-  { value: '20+', label: 'Projects Built' },
-  { value: '350+', label: 'DSA Problems' },
-  { value: '3', label: 'Internships' },
-  { value: '30+', label: 'Community Event Led' },
+  { value: '200', label: 'Farmers Field-Tested' },
+  { value: '75.5%', label: 'Positive Feedback' },
+  { value: '10K+', label: 'Knowledge Graph Nodes' },
+  { value: '400+', label: 'DSA Problems Solved' },
 ];
 
 export default function About() {
@@ -16,7 +16,7 @@ export default function About() {
     <SectionWrapper id="about">
       <div className="max-w-6xl mx-auto px-6">
         <motion.div variants={itemVariants} className="mb-12">
-          <span className="text-accent font-mono text-sm tracking-wider">01.</span>
+          <span className="text-accent font-mono text-sm tracking-wider">02.</span>
           <h2 className="font-display text-3xl md:text-5xl font-bold mt-2">About Me</h2>
         </motion.div>
 
@@ -26,21 +26,22 @@ export default function About() {
             <p className="text-lg leading-relaxed text-muted">
               I&apos;m a Computer Science graduate{' '}
               <span className="text-foreground font-medium">(B.Tech, IoT — June 2026)</span>{' '}
-              who&apos;s deeply curious about how AI can solve messy, real-world problems — not just
-              toy demos, but things people actually use.
+              who enjoys turning real-world problems into useful technology products. My work
+              spans problem discovery, product requirements, prototyping, data analysis, and
+              technical implementation.
             </p>
             <p className="text-lg leading-relaxed text-muted">
-              As{' '}
-              <span className="text-accent font-medium">GDG on Campus Lead</span>{' '}
-              (selected from 500+ applicants) and organizer at{' '}
+              As a former <span className="text-accent font-medium">GDG on Campus Lead</span>{' '}
+              (selected from 500+ applicants) and an organizer with{' '}
               <span className="text-accent font-medium">Kotlin User Group Gurugram</span>,
-              I&apos;ve built communities around the tech I care about. I ship things — from
-              RAG-based teaching assistants to AI-driven farmer support platforms.
+              I&apos;ve worked with students, speakers, and community partners to create
+              opportunities for people to learn and build together.
             </p>
             <p className="text-lg leading-relaxed text-muted">
-              Right now I&apos;m focused on{' '}
-              <span className="text-foreground font-medium">GenAI, RAG systems, and applied ML</span>
-              . I like building end-to-end: from training pipelines to production UIs.
+              I bring a technical foundation in{' '}
+              <span className="text-foreground font-medium">AI/ML, data analytics, and full-stack development</span>{' '}
+              to product work. I&apos;m especially interested in understanding users, using
+              evidence to make decisions, and improving products through iteration.
             </p>
 
             {/* Stats row */}
