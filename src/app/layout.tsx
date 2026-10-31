@@ -16,21 +16,21 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Divyanshu Tiwari — AI/ML Engineer & GenAI Developer',
-  description: 'Portfolio of Divyanshu Tiwari — Computer Science graduate building intelligent systems with GenAI, RAG, and applied ML. GDG Campus Lead, Microsoft Imagine Cup Semifinalist.',
-  keywords: ['AI/ML Engineer', 'GenAI Developer', 'Portfolio', 'Divyanshu Tiwari', 'RAG', 'Machine Learning'],
+  title: 'Divyanshu Tiwari | Product Builder, AI/ML & Data',
+  description: 'Portfolio of Divyanshu Tiwari, a product-minded engineer combining AI/ML, data analytics, and software development to turn real-world problems into useful products.',
+  keywords: ['Product Builder', 'Product-Minded Engineer', 'AI/ML Developer', 'Data Analytics', 'Portfolio', 'Divyanshu Tiwari'],
   authors: [{ name: 'Divyanshu Tiwari' }],
   openGraph: {
-    title: 'Divyanshu Tiwari — AI/ML Engineer & GenAI Developer',
-    description: 'Building intelligent systems that solve real problems. Explore my projects, skills, and experience.',
+    title: 'Divyanshu Tiwari | Product Builder, AI/ML & Data',
+    description: 'Building useful products through technology, data, and user understanding.',
     type: 'website',
     locale: 'en_US',
     siteName: 'Divyanshu Tiwari Portfolio',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Divyanshu Tiwari — AI/ML Engineer & GenAI Developer',
-    description: 'Building intelligent systems that solve real problems.',
+    title: 'Divyanshu Tiwari | Product Builder, AI/ML & Data',
+    description: 'Building useful products through technology, data, and user understanding.',
   },
   robots: {
     index: true,
