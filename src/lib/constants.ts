@@ -1,7 +1,7 @@
 export const PERSONAL = {
   name: 'Divyanshu Tiwari',
-  tagline: 'Building intelligent systems that solve real problems.',
-  roles: ['AI/ML Engineer', 'GenAI Developer', 'Full-Stack Builder'],
+  tagline: 'Turning real-world problems into useful products through technology, data, and user understanding.',
+  roles: ['Product-Minded Engineer', 'AI/ML Developer', 'Data-Driven Builder'],
   email: 'divyanshucloud@gmail.com',
   phone: '+91 8595126184',
   github: 'https://github.com/Divyanshu8595',
@@ -19,35 +19,44 @@ export const SKILLS = [
   { category: 'ML & Data', color: 'red', items: ['TensorFlow', 'Scikit-learn', 'Pandas', 'NumPy', 'Data Visualization'] },
   { category: 'Frontend', color: 'red', items: ['React.js', 'Next.js', 'Tailwind CSS', 'Framer Motion'] },
   { category: 'Databases & Cloud', color: 'green', items: ['MySQL', 'Neo4j', 'Firebase', 'Google Cloud'] },
+  { category: 'Product & Analytics', color: 'green', items: ['User Research', 'Product Requirements', 'Prototyping', 'Data Analysis', 'Experimentation', 'Stakeholder Collaboration'] },
 ];
 
 export const FEATURED_PROJECTS = [
   {
-    name: 'Sahayak Guru',
-    description: 'RAG-based AI teaching assistant that uses Gemini API to answer student queries with context from uploaded course materials. Submitted to Google Cloud Agentic AI Day.',
-    tech: ['Gemini API', 'RAG', 'Python', 'LangChain'],
-    github: 'https://github.com/Divyanshu8595',
+    name: 'Khetiharii',
+    description: 'Agricultural support product designed around practical farmer needs. Built a working prototype with a React frontend, Firebase backend, Gemini API, and AI-assisted leaf disease detection and recommendations.',
+    tech: ['React', 'Firebase', 'Gemini API', 'Product Discovery'],
+    github: 'https://github.com/Divyanshu8595/khetiharii',
+    role: 'Product discovery, requirements, prototyping, and field testing.',
+    evidence: 'Field-tested with 200 farmers; 151 participants (75.5%) responded positively. Feedback informed opportunities for future product improvements.',
     featured: true,
   },
   {
-    name: 'Khetiharii',
-    description: 'AI-driven farmer support platform with crop disease detection from leaf images. Built with React frontend, Firebase backend, and Gemini API for intelligent recommendations.',
-    tech: ['React', 'Firebase', 'Gemini API', 'ML'],
-    github: 'https://github.com/Divyanshu8595',
+    name: 'Sahayak Guru',
+    description: 'RAG-based AI teaching assistant that answers student queries using custom course materials, built with Gemini API and LangChain. Submitted to Google Cloud Agentic AI Day.',
+    tech: ['Gemini API', 'RAG', 'Python', 'LangChain'],
+    github: null,
+    role: 'AI product concept and technical implementation.',
+    evidence: '',
     featured: false,
   },
   {
     name: 'Customer Churn Prediction',
-    description: 'End-to-end ML classification model predicting customer churn for an OTT platform, paired with an interactive analytics dashboard for business insights.',
-    tech: ['Python', 'Scikit-learn', 'Pandas', 'Dashboard'],
-    github: 'https://github.com/Divyanshu8595',
+    description: 'Machine learning classification project for an OTT-platform churn use case, paired with an analytics dashboard to communicate customer behaviour patterns and potential business drivers.',
+    tech: ['Python', 'Scikit-learn', 'Pandas', 'Analytics Dashboard'],
+    github: null,
+    role: 'Data analysis, model development, and insight communication.',
+    evidence: '',
     featured: false,
   },
   {
     name: 'Aunty Scanner',
-    description: 'Hyperlocal food discovery platform that connects users with nearby home cooks and street food vendors using location-based backend workflows.',
-    tech: ['Dart', 'Firebase', 'Google Maps', 'Flutter'],
+    description: 'Hyperlocal food discovery platform connecting users with nearby home cooks and vendors through location-based workflows, built with Flutter and Firebase.',
+    tech: ['Flutter', 'Firebase', 'Google Maps'],
     github: 'https://github.com/Divyanshu8595/auntyScanner',
+    role: 'Application development and location-based workflows.',
+    evidence: '',
     featured: false,
   },
 ];
@@ -59,8 +68,8 @@ export const EXPERIENCE = [
     period: 'Jan 2026 – Apr 2026',
     description: [
       'Fine-tuned and evaluated large language models for domain-specific tasks',
-      'Developed post-training pipelines including RLHF and instruction tuning',
-      'Collaborated on data curation and quality assessment for training datasets',
+      'Worked on post-training workflows involving RLHF and instruction tuning',
+      'Collaborated on data curation, labeling protocols, and quality assessment for training datasets',
     ],
   },
   {
@@ -68,9 +77,9 @@ export const EXPERIENCE = [
     company: 'Agivant Technologies',
     period: 'Jun 2025 – Sep 2025',
     description: [
-      'Built and deployed ML models for real-world business applications',
-      'Worked on data preprocessing pipelines and feature engineering',
-      'Contributed to computer vision and NLP-based solutions for clients',
+      'Built a multi-agent AI system that queried a Neo4j knowledge graph containing 10,000+ nodes',
+      'Implemented LLM-based entity extraction, semantic search, and vector-retrieval workflows',
+      'Contributed to data-processing and evaluation workflows for applied AI solutions',
     ],
   },
 ];
@@ -83,10 +92,10 @@ export const ACHIEVEMENTS = [
 ];
 
 export const NAV_LINKS = [
-  { label: 'About', href: '#about' },
-  { label: 'Skills', href: '#skills' },
   { label: 'Projects', href: '#projects' },
+  { label: 'About', href: '#about' },
   { label: 'Experience', href: '#experience' },
+  { label: 'Skills', href: '#skills' },
   { label: 'Achievements', href: '#achievements' },
   { label: 'Contact', href: '#contact' },
 ];
