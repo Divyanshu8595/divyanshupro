@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Divyanshu Tiwari — Portfolio
 
-## Getting Started
+Personal portfolio website showcasing product-building work, AI/ML engineering, data analytics, experience, and community leadership.
 
-First, run the development server:
+🌐 **Live portfolio:** https://divyanshupro.vercel.app  
+💼 **LinkedIn:** https://www.linkedin.com/in/divyanshu-tiwari-43151a20b/  
+👨‍💻 **GitHub:** https://github.com/Divyanshu8595
+
+## About
+
+I'm a Computer Science graduate interested in turning real-world problems into useful technology products. My work brings together product discovery, prototyping, AI/ML, data analysis, and software engineering.
+
+The portfolio highlights:
+- **Khetiharii:** an agricultural support product concept and working prototype, including field-testing feedback.
+- **Sahayak Guru:** a RAG-based AI teaching assistant.
+- **Customer Churn Prediction:** an ML and analytics project.
+- **Aunty Scanner:** a hyperlocal food discovery application.
+- Professional experience, community leadership, achievements, and certifications.
+
+## Built With
+
+- Next.js and React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- EmailJS
+
+## Run Locally
+
+### Prerequisites
+- Node.js (LTS recommended)
+- npm
+
+### Setup
 
 ```bash
+git clone https://github.com/Divyanshu8595/divyanshupro.git
+cd divyanshupro
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Production Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm run start
+```
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```text
+src/
+  app/
+    layout.tsx       # Metadata and root layout
+    page.tsx         # Homepage section order
+    globals.css      # Theme tokens and global styles
+  components/        # Portfolio sections and UI components
+  lib/
+    constants.ts     # Profile, skills, projects, experience, and badges
+    github.ts        # GitHub repository data helpers
+public/
+  resume.pdf         # Downloadable resume
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The site is deployed on Vercel. Changes pushed to the configured production branch can trigger a deployment according to the project's Vercel settings.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built by **Divyanshu Tiwari**.
