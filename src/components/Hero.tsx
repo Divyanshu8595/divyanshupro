@@ -108,7 +108,7 @@ export default function Hero() {
               href="#projects"
               className="inline-flex items-center gap-2 px-6 py-3 bg-accent hover:bg-accent-hover text-white rounded-lg font-medium transition-all duration-300 hover:shadow-lg hover:shadow-accent/25"
             >
-              <span>View Projects</span>
+              <span>Explore Products</span>
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
             </MagneticButton>
 
