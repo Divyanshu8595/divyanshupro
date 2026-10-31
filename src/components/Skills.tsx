@@ -29,10 +29,10 @@ export default function Skills() {
     <SectionWrapper id="skills">
       <div className="max-w-6xl mx-auto px-6">
         <motion.div variants={itemVariants} className="mb-16">
-          <span className="text-accent font-mono text-sm tracking-wider">02.</span>
+          <span className="text-accent font-mono text-sm tracking-wider">04.</span>
           <h2 className="font-display text-3xl md:text-5xl font-bold mt-2">Skills & Tools</h2>
           <p className="text-muted mt-4 max-w-lg">
-            Technologies I work with daily to build intelligent systems.
+            A mix of engineering, analytics, and product skills I use to understand problems and build practical solutions.
           </p>
         </motion.div>
 
