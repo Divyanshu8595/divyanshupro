@@ -15,11 +15,11 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
-        <About />
-        <Skills />
         <FeaturedProjects />
-        <GitHubRepos />
+        <About />
         <Experience />
+        <Skills />
+        <GitHubRepos />
         <Achievements />
         <Contact />
       </main>
